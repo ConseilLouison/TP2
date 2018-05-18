@@ -6,8 +6,13 @@
 
 #header
 {
-	background: #ccc;
+	text-align: center;
+	border-radius: 30px;
+	background: #8A37AF;
 	padding: 20px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#8A37AF), to(#9E0E40));
+	background-image: -webkit-linear-gradient(left, #8A37AF, #9E0E40);
+
 }
 
 #header h1 { margin: 0; }
@@ -45,6 +50,7 @@
 
 #edito
 {
+	text-align: center;
 	clear: left;
 	padding: 20px;
 	margin: 20px;
@@ -52,9 +58,10 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-gradient(linear, left top, right top, from(grey), to(white));
+	--background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+	--background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color: grey;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -69,6 +76,7 @@
 
 #news
 {	
+	text-align: justify;
 	float: left;
 	width: 40%;
 	padding: 20px;
@@ -87,9 +95,10 @@
 
 #footer
 {
+	border-radius: 30px;
 	clear: both;
 	background: #ccc;
-	text-align: right;
+	text-align: center;
 	padding: 20px;
 	height: 1%;
 }
