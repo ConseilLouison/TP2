@@ -1,12 +1,12 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #FFFFFF;
 }
 
 #header
 {
-	background: #ccc;
+	background: #f9ca1f;
 	padding: 20px;
 }
 
@@ -17,6 +17,7 @@
 	float: left;
 	width: 100%;
 	background: #333;
+    margin-bottom: 10px;
 }
 
 #navigation ul
@@ -50,11 +51,7 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color: #a21ff9;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -70,25 +67,24 @@
 #news
 {	
 	float: left;
-	width: 40%;
+	width: 250px;
+    height: 500px;
 	padding: 20px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color: #1fbbf9;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
 }
 
+#news h2 {text-align: center}
+
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #f9ca1f;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
